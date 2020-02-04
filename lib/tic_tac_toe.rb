@@ -55,5 +55,7 @@ class TicTacToe
     @board.count {|token| token == "X" || token == "O"}
   end 
   
-  
+  def current_player 
+    turn_count.even?
+  end 
 end 
