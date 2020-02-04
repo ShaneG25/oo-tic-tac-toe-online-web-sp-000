@@ -80,6 +80,6 @@ class TicTacToe
   end 
   
   def winner
-    if 
+    if winning_combo 
   end 
 end 
