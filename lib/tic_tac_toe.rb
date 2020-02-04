@@ -67,7 +67,7 @@ class TicTacToe
     end
   end
   
-  def full 
+  def full?
     board.all? 
   end 
 end 
