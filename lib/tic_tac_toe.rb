@@ -23,7 +23,9 @@ class TicTacToe
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
   
-  def 
+  def input_to_index(user_input)
+    
+  end 
   
   def move(index, player)
     @board[index] = player 
