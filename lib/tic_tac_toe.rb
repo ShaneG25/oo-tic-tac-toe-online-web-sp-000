@@ -1,3 +1,3 @@
 class TicTacToe
-  initialize
+  attr_accessor :
 end 
