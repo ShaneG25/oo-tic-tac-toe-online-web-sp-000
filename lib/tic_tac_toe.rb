@@ -24,7 +24,7 @@ class TicTacToe
   end
   
   def input_to_index(user_input)
-    
+    user_input
   end 
   
   def move(index, player)
