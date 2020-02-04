@@ -26,4 +26,6 @@ class TicTacToe
   def move(index, player)
     @board[index] = player 
   end 
+  
+  
 end 
